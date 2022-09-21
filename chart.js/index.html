@@ -10,5 +10,155 @@
 </head>
 <body>
     
-</body>
+<section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+
+    <div id="myChartD">
+    <canvas id="chart" width=256 height=256></canvas>
+    </div>
+    
+    <script type="text/javascript">
+    
+        var ctx = document.getElementById('chart').getContext('2d');
+        var myChart = new Chart(ctx, {
+         type: 'radar',
+          data: {
+            labels: ['総合','HTML', 'CSS', 'SASS', 'JavaScript', 'Node.js'],
+            datasets: [{
+              label: 'FRONTEND',
+              //backgroundColor: "rgba(153,255,255,0.4)"
+                     data: [9, 7, 5, 8, 5, 3],
+                            backgroundColor: "rgba(255,0,0,0.2)", // 線の下の塗りつぶしの色
+                            borderColor: "red",                   // 線の色
+    //この2行が機能していなような！？
+                        HoverBackgroundColor: "rgba(255,0,0,0.2)",
+                        HoverBorderColor: "red",
+    
+                            borderWidth: 2,                       // 線の幅
+                            pointStyle: "circle",                 // 点の形状
+                            pointRadius: 6,                       // 点形状の半径
+                            pointBorderColor: "red",              // 点の境界線の色
+                            pointBorderWidth: 2,                  // 点の境界線の幅
+                            pointBackgroundColor: "black",        // 点の塗りつぶし色
+                            pointLabelFontSize: 200 
+            }]
+                },
+                options: {
+                    scale: {
+                        legend: {
+                            position: 'left',
+                        },
+                        ticks: {
+                            stepSize: 1, // 目盛の間隔
+                            max: 10, //最大値
+                            beginAtZero: true
+                        }
+                    }
+          }
+    
+            });
+    
+    </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+
+<div id="myChartD">
+<canvas id="chart" width=256 height=256></canvas>
+</div>
+
+<script type="text/javascript">
+
+    var ctx = document.getElementById('chart').getContext('2d');
+    var myChart = new Chart(ctx, {
+     type: 'radar',
+      data: {
+        labels: ['総合','HTML', 'CSS', 'SASS', 'JavaScript', 'Node.js'],
+        datasets: [{
+          label: 'FRONTEND',
+          //backgroundColor: "rgba(153,255,255,0.4)"
+                 data: [9, 7, 5, 8, 5, 3],
+                        backgroundColor: "rgba(255,0,0,0.2)", // 線の下の塗りつぶしの色
+                        borderColor: "red",                   // 線の色
+//この2行が機能していなような！？
+                    HoverBackgroundColor: "rgba(255,0,0,0.2)",
+                    HoverBorderColor: "red",
+
+                        borderWidth: 2,                       // 線の幅
+                        pointStyle: "circle",                 // 点の形状
+                        pointRadius: 6,                       // 点形状の半径
+                        pointBorderColor: "red",              // 点の境界線の色
+                        pointBorderWidth: 2,                  // 点の境界線の幅
+                        pointBackgroundColor: "black",        // 点の塗りつぶし色
+                        pointLabelFontSize: 200 
+        }]
+            },
+            options: {
+                scale: {
+                    legend: {
+                        position: 'left',
+                    },
+                    ticks: {
+                        stepSize: 1, // 目盛の間隔
+                        max: 10, //最大値
+                        beginAtZero: true
+                    }
+                }
+      }
+
+        });
+
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+
+    <div id="myChartD">
+    <canvas id="chart" width=256 height=256></canvas>
+    </div>
+    
+    <script type="text/javascript">
+    
+        var ctx = document.getElementById('chart').getContext('2d');
+        var myChart = new Chart(ctx, {
+         type: 'radar',
+          data: {
+            labels: ['総合','HTML', 'CSS', 'SASS', 'JavaScript', 'Node.js'],
+            datasets: [{
+              label: 'FRONTEND',
+              //backgroundColor: "rgba(153,255,255,0.4)"
+                     data: [9, 7, 5, 8, 5, 3],
+                            backgroundColor: "rgba(255,0,0,0.2)", // 線の下の塗りつぶしの色
+                            borderColor: "red",                   // 線の色
+    //この2行が機能していなような！？
+                        HoverBackgroundColor: "rgba(255,0,0,0.2)",
+                        HoverBorderColor: "red",
+    
+                            borderWidth: 2,                       // 線の幅
+                            pointStyle: "circle",                 // 点の形状
+                            pointRadius: 6,                       // 点形状の半径
+                            pointBorderColor: "red",              // 点の境界線の色
+                            pointBorderWidth: 2,                  // 点の境界線の幅
+                            pointBackgroundColor: "black",        // 点の塗りつぶし色
+                            pointLabelFontSize: 200 
+            }]
+                },
+                options: {
+                    scale: {
+                        legend: {
+                            position: 'left',
+                        },
+                        ticks: {
+                            stepSize: 1, // 目盛の間隔
+                            max: 10, //最大値
+                            beginAtZero: true
+                        }
+                    }
+          }
+    
+            });
+    
+    </script>
+    
+</section>
+
 </html>
