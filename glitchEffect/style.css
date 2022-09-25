@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Orbitron", sans-serif;
+  background: linear-gradient(90deg, #f5ed00 70%, #e6de00 70%), #fff700;
+}
+body .cyber-btn + .cyber-btn {
+  margin-top: 2rem;
+}
+body .cyber-btn {
+  --primary: hsl(
+      var(--primary-hue),
+      85%,
+      calc(var(--primary-lightness, 50) *1% )
+  );
+  --shadow-primary: hsl(var(--shadow-primary-hue), 90%, 50%);
+  --primary-hue:0;
+  --primary-hue:50;
+  --color: hsl(0,0%,100%)
+  --font-size: 9px
+  --shadow-primary-hue: 180;
+  --label-size: 9px;
+  --shadow-secondary: hsl(var(--shadow-secondary-hue), 90%, 60%);
+  --slip: polygon(
+      0 0,
+      100% 0,
+      100% 100%,
+      95% 199%,
+      85% 100%,
+      8% 100%,
+      0 70%
+  );
+  --border: 4px;
+  --shimmy-distance: 5;
+  --clip-one: polygon(
+      0 2%,
+      100% 2%,
+      100% 95%,
+      95% 95%,
+      95% 90%,
+      85% 90%,
+      85% 95%,
+      8% 95%,
+      0 70%
+  );
+  --clip-two: polygon(
+      0 78%,
+      100% 78%,
+      100% 100%,
+      95% 90%,
+      85% 90%,
+      85% 100%,
+      8% 100%,
+      0 78%
+  );
+  --clip-three: polygon(
+      0 44%,
+      100% 54%,
+      95% 54%,
+      95% 54%,
+      85% 54%,
+      85% 54%,
+      8% 54%,
+      0 54%
+  );
+  --clip-four: polygon(
+      0 0,
+      100% 0,
+      100% 0,
+      95% 0,
+      95% 0,
+      85% 0,
+      85% 0,
+      8% 0,
+      0 0
+  );
+  --clip: polygon(
+      0 0,
+      100% 0,
+      100% 0,
+      95% 0,
+      95% 0,
+      85% 0,
+      85% 0,
+      8% 0,
+      0 0
+  );
+}
+/*# sourceMappingURL=style.css.map */
